@@ -12,8 +12,15 @@ public class Main {
         System.out.println(warAndPeace.hashCode());
         System.out.println(warAndPeace.hashCode());
         System.out.println(fatherAndSons.hashCode());
-        System.out.println(warAndPeace.equals(fatherAndSons));
+        System.out.println(warAndPeace.equals(warAndPeace));
         System.out.println(ivanTurgenev.hashCode());
+        Book book1 = new Book("fsd",ivanTurgenev,344);
+        book1 = warAndPeace;
+        System.out.println(warAndPeace.equals(book1));
+        System.out.println(warAndPeace.equals(ivanTurgenev));
+
+
+
 
 
 
